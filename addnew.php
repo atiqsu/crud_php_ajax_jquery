@@ -18,7 +18,7 @@
 								$(".result").html("<i style = 'color: #D00; margin-left: 6px;'>deleting...</i>");
 							},
 							success: function(){
-								$(".result").html("");
+								$(".result").html("<i style = 'color: #D00; margin-left: 6px;'>deleted...</i>");
 							},
 							error: function(){
 								alert('Sorry! data cannot be deleted at the moment!');
