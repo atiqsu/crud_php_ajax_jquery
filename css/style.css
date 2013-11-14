@@ -1,0 +1,14 @@
+.post{
+	width: 500px;
+	height: auto;
+	border: 1px solid #DDD;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 10px;
+	background: #EEE;
+	text-align: justify;
+}
+#div_post{
+	margin-left: 31%;
+}
