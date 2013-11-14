@@ -23,6 +23,7 @@
 							$(".btn").val("Submitting...").attr("disabled", "disabled");
 						},
 						success: function(e){
+							// remove submitting attr
 							$(".btn").val("Save").removeAttr("disabled", "disabled");
 							$(".prepend").prepend(e).fadeIn('slow');
 						},
